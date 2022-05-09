@@ -19,7 +19,7 @@
 - 计算节点/机器(通常使用节点的名称、编号和 IP 地址)的哈希值，放置在环上。
 - 计算 key 的哈希值，放置在环上，顺时针寻找到的第一个节点，就是应选取的节点/机器。
 
-![consitentHash](/Users/lxw/Documents/FTC/GeeCache/doc/asserts/add_peer.jpg)
+![consitentHash](asserts/add_peer.jpg)
 
 环上有 peer2，peer4，peer6 三个节点，`key11`，`key2`，`key27` 均映射到 peer2，`key23` 映射到 peer4。此时，如果新增节点/机器 peer8，假设它新增位置如图所示，那么只有 `key27` 从 peer2 调整到 peer8，其余的映射均没有发生改变。
 
