@@ -1,5 +1,7 @@
 ![cover](https://images.unsplash.com/photo-1634573826817-27d9e8da08df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)
 
+
+
 # :four_leaf_clover: 1. 为什么要用一致性哈希
 
 ## 1.1 避免缓存雪崩
